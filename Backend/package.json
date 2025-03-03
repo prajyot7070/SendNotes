@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,7 @@
     "mongoose": "^8.11.0",
     "ws": "^8.18.1",
     "y-mongodb-provider": "^0.2.0",
-    "y-websocket": "^2.1.0"
+    "y-websocket": "^2.1.0",
+    "yjs": "^13.6.23"
   }
 }
